@@ -2,10 +2,15 @@
 This repository contains the data, code, and analyses for the study: Arbuscular mycorrhizal diversity correlates with tree size in an Alerce forest (Fitzroya cupressoides) with one of oldest living trees on earth
 
 # Contents 
-data/ – Raw and processed data files 
-scripts/ – Analysis scripts (e.g., data processing, statistical analysis, visualization) 
-results/ – Processed outputs, figures, and tables 
-docs/ – Manuscript drafts, supplementary materials 
+data/ – Metadata, 
+
+files/ – Database (MaarjAM adjusted for Schussler's taxonomy)
+
+scripts/ – Analysis scripts (e.g., data processing, statistical analysis, visualization): LotuS2 run commands, 
+
+results/ – Processed outputs, figures, and supplementary materials 
+
+
 
 # Methods 
 Bioinformatics: LotuS2 analyses of ITS2 and SSU amplicons sequenced from soil eDNA. Analysis: Community composition, alpha/beta diversity metrics, ordination, and statistical modeling Software: Analyses performed in R and Python, using packages such as phyloseq, vegan, and ggplot2 Reproducibility To reproduce our analyses:
