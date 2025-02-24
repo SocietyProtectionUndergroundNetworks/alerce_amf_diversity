@@ -1,4 +1,4 @@
-# paper-alerce_amf_diversity
+# About
 This repository contains the data, code, and analyses for the study: Arbuscular mycorrhizal diversity correlates with tree size in an Alerce forest (Fitzroya cupressoides) with one of oldest living trees on earth
 
 # Contents 
