@@ -4,9 +4,9 @@ This repository contains the data, code, and analyses for the study: Arbuscular 
 # Contents 
 data/ – Metadata, 
 
-files/ – SSU Database (MaarjAM adjusted for Schussler's taxonomy), SDM config files for LotuS2 runs,
+bioinformatics_LotuS2/ – All scripts, config files, and custom databases for the running of LotuS2
 
-scripts/ – Analysis scripts (e.g., data processing, statistical analysis, visualization): LotuS2 run commands, 
+R_scripts/ – Analysis scripts (e.g., data processing, statistical analysis, visualization): decontamination and taxonomic assignment of mycorrhizal fungi
 
 results/ – Processed outputs, figures, and supplementary materials 
 
