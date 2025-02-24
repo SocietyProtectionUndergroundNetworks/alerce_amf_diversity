@@ -1,0 +1,12 @@
+perl /home/condauser/miniconda/envs/lotus2_env/bin/lotus2 \
+-i /seq_processed/00032_20241120X9JX9Y -o /seq_processed/00032_20241120X9JX9Y/lotus2_report/ITS2 \
+-m /seq_processed/00032_20241120X9JX9Y/mapping_files/ITS2_Mapping.txt \
+-refDB UNITE \
+-amplicon_type ITS2 \
+-LCA_idthresh 97,95,93,91,88,78 \
+-tax_group fungi \
+-taxAligner blast \
+-clustering vsearch \
+-derepMin 10:1,5:2,3:3 \
+-sdmopt /lotus2_files/sdm_miSeq_ITS.txt \
+-id 0.97
