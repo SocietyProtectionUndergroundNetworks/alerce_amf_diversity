@@ -4,7 +4,7 @@ This repository contains the data, code, and analyses for the study: Arbuscular 
 # Contents 
 data/ – Metadata, 
 
-files/ – Database (MaarjAM adjusted for Schussler's taxonomy)
+files/ – SSU Database (MaarjAM adjusted for Schussler's taxonomy), SDM config files for LotuS2 runs,
 
 scripts/ – Analysis scripts (e.g., data processing, statistical analysis, visualization): LotuS2 run commands, 
 
