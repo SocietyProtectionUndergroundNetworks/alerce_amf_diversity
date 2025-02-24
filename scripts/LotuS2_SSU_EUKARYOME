@@ -1,0 +1,13 @@
+perl /home/condauser/miniconda/envs/lotus2_env/bin/lotus2 \
+-i /seq_processed/00032_20241120X9JX9Y -o /seq_processed/00032_20241120X9JX9Y/lotus2_report/SSU_eukaryome \
+-m /seq_processed/00032_20241120X9JX9Y/mapping_files/SSU_Mapping.txt \
+-refDB /lotus2_files/mothur_EUK_SSU_v1.9.3.fasta \
+-tax4refDB /lotus2_files/mothur_EUK_SSU_v1.9.3_lotus.tax \
+-amplicon_type SSU \
+-LCA_idthresh 97,95,93,91,88,78,0 \
+-tax_group fungi \
+-taxAligner blast \
+-clustering dada2 \
+-LCA_cover 0.97 \
+-derepMin 10:1,5:2,3:3 \
+-sdmopt /lotus2_files/sdm_miSeq2_SSU_Spun.txt
