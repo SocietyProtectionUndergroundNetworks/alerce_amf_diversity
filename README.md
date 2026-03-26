@@ -1,6 +1,9 @@
 # About
 This repository contains the data, code, and analyses for the study: Arbuscular mycorrhizal diversity correlates with tree size in an Alerce forest (Fitzroya cupressoides) with one of oldest living trees on earth
 
+# Data
+All the sequencing data are deposited in [NCBI SRA PRJNA785007](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA785007/)
+
 # Contents 
 data/ – Metadata, 
 
